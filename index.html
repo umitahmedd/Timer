@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="foto.jpg" alt="">
+    </div>
+
+    <div class="primary">
+        <div class="container"> 
+            <div class="saatler">
+                <div class="saat-govdesi saat-1" >
+                    <div class="saat-bosluk">
+                        <p id="saat"></p>
+                    </div>
+                </div>
+                <div class="ikinokta2">:</div>
+                <div class="saat-govdesi saat-2" id="saat2">
+                    <div class="saat-bosluk">
+                        <p id="dakika"></p>
+                    </div>
+                </div>
+                <div class="ikinokta2">:</div>
+                <div class="saat-govdesi saat-3" id="saat3">
+                    <div class="saat-bosluk">
+                        <p id="saniye"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="ayarlar">
+                <div><button id="settings-button">Settings</button></div>
+                <div id="settings" class="settings">
+                    <ul>
+                        <li>
+                            <div class="timespeed">
+                                <div>
+                                    <p class="ayarbaslik">Speed</p>
+                                </div>
+                                <div class="speed-setting">
+                                    <div><button id="speed-up">+</button></div>
+                                    <div><button id="speed-down">-</button></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <form id="form">
+
+                                <div class="set" >
+                                    <div>
+                                        <p class="ayarbaslik"> Timer</p>
+                                    </div>
+        
+                                    <div class="timer-setting">
+                                        <div><input id="input-hour" type="text" placeholder="Hou"></div>
+                                        <div class="ikinokta">:</div>
+                                        <div><input id="input-minute" type="text" placeholder="Min"></div>
+                                        <div class="ikinokta">:</div>
+                                        <div><input id="input-second" type="text" placeholder="Sec"></div>
+                                    </div>
+        
+                                    <div class="settings-buttons"> <p id="remove-set-button">Remove Settings</p> <p  id="start_button">Start</p> </div>
+                                </div>
+                            </form>
+                        </li>
+
+                    </ul>
+                    <div class="setting-close">
+                        <button id="close-button">❌</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"> </script>
+</body>
+</html>

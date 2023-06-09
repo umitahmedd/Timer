@@ -1,0 +1,232 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.primary{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, .4);
+}
+
+.background{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.saat-govdesi{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 7rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+ .saatler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .ayarlar{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+ }
+
+ #settings-button{
+    color: #ffffff49;
+    background: none;
+    padding: 1rem 2rem  1rem 2rem ;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition:  all .3s;
+    margin-top: 1rem;
+    border: 1px solid #ffffff49 ;
+ }
+
+ #settings-button:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff ;
+ }
+
+ li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+ }
+
+ ul{
+    display: flex;
+    justify-content:center ;
+    align-items: start;
+    column-gap: 3rem;
+ }
+
+.settings{
+    /* display: none; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgba(0,0, 0, .9);
+    transform: translateY(-300px);
+    width: 90%;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+.ayarbaslik{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.speed-setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.speed-setting button{
+    height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background:none;
+    padding: .7rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.speed-setting button:hover{
+    border: 1px solid rgb(65, 65, 65);
+}
+
+.timer-setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-setting input{
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: .7rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ikinokta{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: .2rem;
+}
+
+#start_button{
+    color: #fff;
+    background: none ;
+    padding: .5rem 1rem .5rem 1rem;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all .3s;
+}
+
+#remove-set-button{
+    color: #fff;
+    background: none ;
+    padding: .5rem 1rem .5rem 1rem;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all .3s;
+}
+
+#start_button:hover{
+    color: #ffffff49;
+    border: 1px solid #ffffff49 ;    
+}
+
+#remove-set-button:hover{
+    color: #ffffff49;
+    border: 1px solid #ffffff49 ;    
+}
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.timespeed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+#close-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+.settings-buttons{
+    display: flex;
+    column-gap: .5rem;
+}
+
+.ikinokta2{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 100;
+}
